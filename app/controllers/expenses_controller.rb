@@ -9,7 +9,7 @@ class ExpensesController < ApplicationController
         if concept == nil
           concept = ""
         end
-        if concept == "burral"
+        if concept == "burral" || concept == "Burral"
           concept = "Hamburguesas el burral"
           #puts concept
         end
