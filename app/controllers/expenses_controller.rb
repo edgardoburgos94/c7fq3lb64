@@ -1,5 +1,8 @@
 class ExpensesController < ApplicationController
+before_action :authenticate_user!
+
   def index
+
     #@expenses = Expense.order("date DESC")
         category_id = params[:category_id]
         concept = params[:concept]
