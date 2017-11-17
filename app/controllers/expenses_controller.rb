@@ -9,7 +9,9 @@ class ExpensesController < ApplicationController
         if concept == nil
           concept = ""
         end
-
+        if concept == "burral"
+          concept == "Hamburguesas el burral"
+        end
         # puts concept.length
         # puts category_id.length
         if category_id.length == 0 && concept.length > 0
