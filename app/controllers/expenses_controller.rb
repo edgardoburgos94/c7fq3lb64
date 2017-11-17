@@ -10,7 +10,8 @@ class ExpensesController < ApplicationController
           concept = ""
         end
         if concept == "burral"
-          concept == "Hamburguesas el burral"
+          concept = "Hamburguesas el burral"
+          #puts concept
         end
         # puts concept.length
         # puts category_id.length
